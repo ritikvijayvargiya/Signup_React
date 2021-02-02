@@ -1,0 +1,35 @@
+GET http://localhost:3080/users
+
+###
+
+GET http://localhost:3080/users/601960fe5f42152570bf8d23
+
+###
+
+POST http://localhost:3080/users
+Content-Type: application/json
+
+{
+      "firstname":"ritik",
+    "lastname":"vijayvargiya",
+    "dateofbirth":13041998,
+    "age":23,
+    "address":"D-40 Braj nagar colony",
+    "pincode":"465333"
+}
+
+###
+DELETE http://localhost:3080/users/601960fe5f42152570bf8d23
+
+###
+PATCH  http://localhost:3080/users/601960fe5f42152570bf8d23
+Content-Type: application/json
+
+{
+    "firstname":"Rahul",
+    "lastname":"vijayvargiya",
+    "dateofbirth":13041998,
+    "age":23,
+    "address":"D-40 Braj nagar colony",
+    "pincode":"465333"
+}
