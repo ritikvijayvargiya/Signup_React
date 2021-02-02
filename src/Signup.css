@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(161, 48, 48);
+}
+.todo-form{
+    background-color: red;
+    height: 350px;
+    margin: 50px auto;
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+}
+.todo-form input{
+    border: none;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 5px;
+    outline: none;
+}
+.todo-form button{
+    background-color: rgb(66, 66, 39);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    font-weight: bolder;
+    outline: none;
+}
+.head{
+    color: white;
+    font-weight: bolder;
+}
